@@ -20,7 +20,7 @@ Run npm install to get all the nescessary files in nodes module. The program is 
 ## Usage
 Use "node index.js" to run the application.
 <br/>
-![New Team screenshots](asset\team-screenshot.PNG)
+![New Team screenshots](asset/team-screenshot.PNG)
 <br/>
 [Video Link](https://drive.google.com/file/d/1YFB2yDjN2NszO16DKSOnmnzpCuSr8yhN/view)
 
