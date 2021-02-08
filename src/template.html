@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My team Generator</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/src/style.css">
+</head>
+
+<body class="bg-secondary">
+    <section class="pt-5 pb-5 bg-dark inner-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="mt-0 mb-3 text-white">My Team</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container mt-5">
+        <div class="card-deck">
+            <div class="card text-white bg-info">
+                <div class="card-body">
+                    <h3 class="card-title">${data.getName()}</h3>
+                    <h5 class="card-title"><i class="fa fa-coffee" aria-hidden="true"></i>${employeeIcon} ${data.getRole()}</h5>
+                </div>
+                <ul class="list-group list-group-flush text-dark">
+                    <li class="list-group-item">ID: ${data.getId()}</li>
+                    <li class="list-group-item">Email: ${data.getEmail()}</li>
+                    <li class="list-group-item">${employeeField}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

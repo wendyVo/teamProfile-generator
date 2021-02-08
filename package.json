@@ -1,0 +1,29 @@
+{
+    "name": "teamprofile-generator",
+    "version": "1.0.0",
+    "description": "an application to generate team profiles",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wendyVo/teamProfile-generator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wendyVo/teamProfile-generator/issues"
+    },
+    "homepage": "https://github.com/wendyVo/teamProfile-generator#readme",
+    "devDependencies": {
+        "jest": "^26.6.3"
+    },
+    "dependencies": {
+        "inquirer": "^7.3.3"
+    }
+}
